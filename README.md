@@ -98,16 +98,16 @@ Translations of the guide are available in the following languages:
 > probably right... <br/>
 > -- Jerry Coffin (on indentation)
 
-* Use `UTF-8` as the source file encoding.
-* Use two **spaces** per indentation level (aka soft tabs). No hard tabs.
+* 소스 파일 인코딩은 `UTF-8`을 사용한다.
+* 들여쓰기는 단계별로 공백 문자 두개를 사용한다. 탭문자는 사용하지 않는다.
 
   ```Ruby
-  # bad - four spaces
+  # 나쁨 - 공백 네개
   def some_method
       do_something
   end
 
-  # good
+  # 좋음
   def some_method
     do_something
   end
